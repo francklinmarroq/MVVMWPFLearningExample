@@ -18,7 +18,7 @@ namespace Trader.State.Navigators
             set
             {
                 _currentViewModel = value;
-                OnPropertyChanged(nameof(_currentViewModel));
+                OnPropertyChanged(nameof(CurrentViewModel));
             }
         }
         public ICommand UpdateCurrentViewModelCommand => new UpdateCurrentViewModelCommand(this);
