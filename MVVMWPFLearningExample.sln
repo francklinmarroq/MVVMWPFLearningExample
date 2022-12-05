@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFramework", "EntityFramework\EntityFramework.csproj", "{94A9C6FF-51C2-4EED-949B-3CABB16D152D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trader", "Trader\Trader.csproj", "{EF63826F-AD3D-40C0-8FC6-8DBFE40207BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trader", "Trader\Trader.csproj", "{EF63826F-AD3D-40C0-8FC6-8DBFE40207BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiLib", "ApiLib\ApiLib.csproj", "{50247A05-5A0A-41C7-A9A1-A2DDE52727FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{EF63826F-AD3D-40C0-8FC6-8DBFE40207BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF63826F-AD3D-40C0-8FC6-8DBFE40207BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF63826F-AD3D-40C0-8FC6-8DBFE40207BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50247A05-5A0A-41C7-A9A1-A2DDE52727FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50247A05-5A0A-41C7-A9A1-A2DDE52727FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50247A05-5A0A-41C7-A9A1-A2DDE52727FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50247A05-5A0A-41C7-A9A1-A2DDE52727FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
